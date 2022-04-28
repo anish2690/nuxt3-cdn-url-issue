@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "NODE_ENV=staging nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "npm:nuxt3@latest"
+  },
+  "dependencies": {
+    "@nuxtjs/partytown": "^1.1.1"
+  }
+}
